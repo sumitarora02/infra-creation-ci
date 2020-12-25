@@ -11,7 +11,7 @@ jobs:
           command: |
             aws cloudformation deploy \
               --template-file template.yml \
-              --stack-name sumit-stack-circleci
+              --stack-name sumit-ci-stack
 workflows:
   my_workflow:
     jobs:
